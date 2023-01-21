@@ -87,7 +87,7 @@ The C4audit output for the contest can be found [here](add link to report) withi
 
 # Additional Context
 
-*Describe any novel or unique curve logic or mathematical models implemented in the contracts*
+- For protocol fee we use basis points (BPS). You can read more on it [here](https://www.investopedia.com/terms/b/basispoint.asp) but the TLDR; is 10_000 is 100%. So 2.5% fee would be 250 BPS.
 
 *Sponsor, please confirm/edit the information below.*
 
