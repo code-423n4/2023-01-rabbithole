@@ -59,8 +59,8 @@ The C4audit output for the contest can be found [here](add link to report) withi
 ## Scoping Details 
 ```
 - If you have a public code repo, please share it here: https://github.com/rabbitholegg/quest-protocol
-- How many contracts are in scope?: 5   
-- Total SLoC for these contracts?:  429
+- How many contracts are in scope?: 10   
+- Total SLoC for these contracts?:  638
 - How many external imports are there?: 18 
 - How many separate interfaces and struct definitions are there for the contracts within scope?: 11 
 - Does most of your code generally use composition or inheritance?: Yes. Only inheritance is abstraction of Quest Types into a parent Quest  
@@ -68,16 +68,16 @@ The C4audit output for the contest can be found [here](add link to report) withi
 - What is the overall line coverage percentage provided by your tests?: 89 
 - Is there a need to understand a separate part of the codebase / get context in order to audit this part of the protocol?: Yes  
 - Please describe required context: There is an ECDSA signature that provides proof of action on chain from our own event indexer  
-- Does it use an oracle?: Yes, described in previous question.
-- Does the token conform to the ERC20 standard?: No, although one Quest type does hold ERC20 in contract. 
+- Does it use an oracle?: Yes (sorta), described in previous question.
+- Does the token conform to the ERC20 standard?: No
 - Are there any novel or unique curve logic or mathematical models?: N/A
-- Does it use a timelock function?: Yes - there is a timelock to let users claim at 12pm each day after their interaction. 
-- Is it an NFT?: There is one NFT contract as part of this (RabbitholeReceipt) and the 1155 Quest also allows for usage of 1155 distribution
+- Does it use a timelock function?: No
+- Is it an NFT?: There are two NFT contracts as part of this. RabbitHoleReceipt is an ERC-721 contract that distributes receipts for on-chain usage. RabbitHoleTickets is an ERC-1155 that is a reward for an ERC-1155 Quest. 
 - Does it have an AMM?: No
 - Is it a fork of a popular project?: No  
 - Does it use rollups?: No
-- Is it multi-chain?: Yes
-- Does it use a side-chain?: Yes
+- Is it multi-chain?: Yes (but currently just deployed to Goerli)
+- Does it use a side-chain?: Yes (same note as above, will go on Polygon)
 ```
 
 # Tests
