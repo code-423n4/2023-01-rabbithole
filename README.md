@@ -47,6 +47,7 @@ We would like to call out extra attention to `QuestFactory.mintReceipt` (users s
 
 ## Out of scope
 - /contracts/test/*
+- @openzeppelin/*
 
 # Additional Context
 
