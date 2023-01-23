@@ -38,9 +38,22 @@ The C4audit output for the contest can be found [here](add link to report) withi
 
 *For line of code counts, we recommend using [cloc](https://github.com/AlDanial/cloc).* 
 
-| Contract | SLOC | Purpose | Libraries used |  
-| ----------- | ----------- | ----------- | ----------- |
-| [contracts/folder/sample.sol](contracts/folder/sample.sol) | 123 | This contract does XYZ | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+---------------------------------------------------------------------------------
+File                                          blank        comment           code
+---------------------------------------------------------------------------------
+./QuestFactory.sol                               24             41            130
+./RabbitHoleReceipt.sol                          21             30            120
+./Quest.sol                                      22             25             94
+./RabbitHoleTickets.sol                          14             27             78
+./Erc20Quest.sol                                 13             25             67
+./Erc1155Quest.sol                                7             12             45
+./ReceiptRenderer.sol                             4             12             40
+./TicketRenderer.sol                              4             10             34
+./interfaces/IQuest.sol                           2              4             16
+./interfaces/IQuestFactory.sol                    2              1             14
+---------------------------------------------------------------------------------
+SUM:                                            120            211            672
+---------------------------------------------------------------------------------
 
 ## Out of scope
 - /contracts/test/*
