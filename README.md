@@ -34,26 +34,18 @@ The C4audit output for the contest can be found [here](add link to report) withi
 
 # Scope
 
-*List all files in scope in the table below (along with hyperlinks) -- and feel free to add notes here to emphasize areas of focus.*
-
-*For line of code counts, we recommend using [cloc](https://github.com/AlDanial/cloc).* 
-
----------------------------------------------------------------------------------
-File                                          blank        comment           code
----------------------------------------------------------------------------------
-./QuestFactory.sol                               24             41            130
-./RabbitHoleReceipt.sol                          21             30            120
-./Quest.sol                                      22             25             94
-./RabbitHoleTickets.sol                          14             27             78
-./Erc20Quest.sol                                 13             25             67
-./Erc1155Quest.sol                                7             12             45
-./ReceiptRenderer.sol                             4             12             40
-./TicketRenderer.sol                              4             10             34
-./interfaces/IQuest.sol                           2              4             16
-./interfaces/IQuestFactory.sol                    2              1             14
----------------------------------------------------------------------------------
-SUM:                                            120            211            672
----------------------------------------------------------------------------------
+| Contract Name     | SLOC | Purpose                                                                                                                                                                                                        |
+|-------------------|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| QuestFactory      | 130  | This is the main factory where Quests get deployed from.                                                                                                                                                       |
+| RabbitHoleReceipt | 120  | This is the receipt contract. An ERC-721 contract that a user has the ability to mint once they have completed an on-chain action. To claim a reward you must own a Receipt that has not claimed a reward yet. |
+| Quest             | 94   | This is the parent class for Quests. This encapsulates a lot of the shared logic in the Erc20Quest & Erc1155Quest                                                                                              |
+| RabbitHoleTickets | 78   | This is an 1155 reward contract used by the RabbitHole team.                                                                                                                                                   |
+| Erc20Quest        | 67   | This is a Quest where the reward to be claimed is an ERC-20 token.                                                                                                                                             |
+| Erc1155Quest      | 45   | This is a Quest where the reward to be claimed is an ERC-1155 token.                                                                                                                                           |
+| ReceiptRenderer   | 40   | This is an on-chain renderer for our ERC-721 Receipt contract                                                                                                                                                  |
+| TicketRenderer    | 34   | This is an on-chain renderer for our ERC-1155 reward (RabbitHoleTickets) contract                                                                                                                              |
+| IQuest            | 16   | This is a Quest interface                                                                                                                                                                                      |
+| IQuestFactory     | 14   | This is a Quest Factory interface      
 
 ## Out of scope
 - /contracts/test/*
