@@ -21,6 +21,8 @@ The C4audit output for the contest can be found [here](add link to report) withi
 
 Quests Protocol is a protocol to distribute token rewards for completing on-chain tasks.
 
+See our full suite of documentation [here](https://github.com/rabbitholegg/quest-protocol).
+
 *Please provide some context about the code being audited, and identify any areas of specific concern in reviewing the code. (This is a good place to link to your docs, if you have them.)*
 
 # Scope
