@@ -1,7 +1,3 @@
-- [ ] See also: [this checklist in Notion](https://code4rena.notion.site/Key-info-for-Code4rena-sponsors-f60764c4c4574bbf8e7a6dbd72cc49b4#0cafa01e6201462e9f78677a39e09746)
-
----
-
 # RabbitHole contest details
 - Total Prize Pool: $36,500 USDC
   - HM awards: $25,500 USDC
