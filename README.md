@@ -43,8 +43,7 @@ The C4audit output for the contest can be found [here](add link to report) withi
 | [contracts/folder/sample.sol](contracts/folder/sample.sol) | 123 | This contract does XYZ | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
 
 ## Out of scope
-
-*List any files/contracts that are out of scope for this audit.*
+- /contracts/test/*
 
 # Additional Context
 
