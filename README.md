@@ -28,6 +28,10 @@ We're releasing five new contracts that are in scope for the audit (more inherit
 - [Receipt](https://github.com/rabbitholegg/quest-protocol/blob/main/contracts/RabbitHoleReceipt.sol): An ERC-721 contract that is able to be claimed by a user once they have completed an on-chain task. This must be held (and unclaimed) to claim a reward. 
 - [Ticket](https://github.com/rabbitholegg/quest-protocol/blob/main/contracts/RabbitHoleTickets.sol): An ERC-1155 contract that is used by the RabbitHole team for ERC-1155 Quests. AKA this is an ERC-1155 Reward.
 
+## Create Quest Flow
+![image](https://user-images.githubusercontent.com/14314818/214160118-16239aa0-18ca-4963-b812-df4f26153a94.png)
+
+
 
 See our full suite of documentation [here](https://github.com/rabbitholegg/quest-protocol#quest-protocol).
 
