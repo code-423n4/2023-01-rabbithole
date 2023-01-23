@@ -41,6 +41,11 @@ The C4audit output for the contest can be found [here](add link to report) withi
 | IQuest            | 16   | This is a Quest interface                                                                                                                                                                                      |
 | IQuestFactory     | 14   | This is a Quest Factory interface      
 
+& all their inherited / library contracts.
+
+We would like to call out extra attention to `QuestFactory.mintReceipt` (users should only be able to claim one receipt), `Quest.claim` - users should only be able to claim the amount of rewards for number of receipts they have. Note - users could claim a receipt, sell it on secondary (not claim reward) and a user could end up with multiple receipts that can claim multiple rewards. Also following funds flow lifecycle throughout the contracts.
+
+
 ## Out of scope
 - /contracts/test/*
 
