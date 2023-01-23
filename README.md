@@ -78,7 +78,24 @@ We would like to call out extra attention to `QuestFactory.mintReceipt` (users s
 
 # Tests
 
-*Provide every step required to build the project from a fresh git clone, as well as steps to run the tests with a gas report.* 
+### Setup
+
+```bash
+yarn 
+yarn compile
+```
+
+### Run all tests:
+
+```bash
+yarn test
+```
+
+### Run test coverage report:
+
+```bash
+yarn test:coverage
+```
 
 
 # Quest Protocol
@@ -218,64 +235,3 @@ More reading [here](https://dev.to/jamiescript/design-patterns-in-solidity-1i28#
 
 ---
 
-## Install
-
-### Install dependencies
-
-```bash
-yarn
-```
-
-### Compile Contracts
-```bash
-yarn compile
-```
-
-
----
-
-## Testing
-
-### Run all tests:
-
-```bash
-yarn test
-```
-
-### Run test coverage report:
-
-```bash
-yarn test:coverage
-```
-
----
-
-## Upgrading
-
-The Quest Factory is an upgradable contract. Over time as the space evolves there will be more than just ERC-20 or
-ERC-1155 rewards and we want to be non-limiting in our compatibility.
-
-1. `yarn hardhat run --network goerli scripts/upgradeQuestFactory.js` or `scripts/upgradeRabbitHoleReceipt.js` and
-   replace the network with `mainnet` if you are upgrading on mainnet.
-    1. If you get an error like `NomicLabsHardhatPluginError: Failed to send contract verification request.` It's
-       usually because the contract wasn't deployed by the time verification ran. You can run verification again
-       with `yarn hardhat verify --network goerli IMPLENTATION_ADDRESS` where the implementation address is in the
-       output of the upgrade script.
-2. go to https://defender.openzeppelin.com/#/admin and approve the upgrade proposal (the link is also in the output of
-   the upgrade script)
-3. After the upgrade proposal is approved, create a PR with the updates to the .openzeppelin/[network-name].json file.
-
----
-
-## Audits
-
-The following auditors reviewed the protocol. You can see reports in `/audits` directory:
-
-- Code4rena TBD (report [here](/audits/))
-
----
-## License
-The primary license for the Quest Protocol is the GNU General Public License 3.0 (GPL-3.0), see [LICENSE](./LICENSE).
-
-Several interface/dependencies files from other sources maintain their original license (as indicated in their SPDX header).
-All files in test/ remain unlicensed (as indicated in their SPDX header).
