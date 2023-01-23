@@ -21,12 +21,12 @@ The C4audit output for the contest can be found [here](add link to report) withi
 
 **Quests Protocol is a protocol to distribute token rewards for completing on-chain tasks.**
 
-We're releasing five new contracts that are in scope for the audit (more inherited once included below):
-- Quest Factory: An upgradable factory that creates a new ERC-20 or ERC-1155 Quest. This follows the factory method & factory creation patterns. This also houses logic on aggregating Quests & minting receipts
-- ERC-20 Quest: A Quest that rewards an on-chain action with an ERC-20 token. You must own an unclaimed receipt to be able to claim the reward.
-- ERC-1155 Quest: A Quest that rewards an on-chain action with an ERC-1155 token. You must own an unclaimed receipt to be able to claim the reward.
-- Receipt: An ERC-721 contract that is able to be claimed by a user once they have completed an on-chain task. This must be held (and unclaimed) to claim a reward. 
-- Ticket: An ERC-1155 contract that is used by the RabbitHole team for ERC-1155 Quests. AKA this is an ERC-1155 Reward.
+We're releasing five new contracts that are in scope for the audit (more inherited contracts included below):
+- [Quest Factory](https://github.com/rabbitholegg/quest-protocol/blob/main/contracts/QuestFactory.sol): An upgradable factory that creates a new ERC-20 or ERC-1155 Quest. This follows the factory method & factory creation patterns. This also houses logic on aggregating Quests & minting receipts
+- [ERC-20 Quest](https://github.com/rabbitholegg/quest-protocol/blob/main/contracts/Erc20Quest.sol): A Quest that rewards an on-chain action with an ERC-20 token. You must own an unclaimed receipt to be able to claim the reward.
+- [ERC-1155 Quest](https://github.com/rabbitholegg/quest-protocol/blob/main/contracts/Erc1155Quest.sol): A Quest that rewards an on-chain action with an ERC-1155 token. You must own an unclaimed receipt to be able to claim the reward.
+- [Receipt](https://github.com/rabbitholegg/quest-protocol/blob/main/contracts/RabbitHoleReceipt.sol): An ERC-721 contract that is able to be claimed by a user once they have completed an on-chain task. This must be held (and unclaimed) to claim a reward. 
+- [Ticket](https://github.com/rabbitholegg/quest-protocol/blob/main/contracts/RabbitHoleTickets.sol): An ERC-1155 contract that is used by the RabbitHole team for ERC-1155 Quests. AKA this is an ERC-1155 Reward.
 
 
 See our full suite of documentation [here](https://github.com/rabbitholegg/quest-protocol).
