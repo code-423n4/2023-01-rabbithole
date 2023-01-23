@@ -21,7 +21,7 @@ The C4audit output for the contest can be found [here](add link to report) withi
 
 **Quests Protocol is a protocol to distribute token rewards for completing on-chain tasks.**
 
-We're releasing five new contracts that are in scope for the audit (children included below):
+We're releasing five new contracts that are in scope for the audit (more inherited once included below):
 - Quest Factory: An upgradable factory that creates a new ERC-20 or ERC-1155 Quest. This follows the factory method & factory creation patterns. This also houses logic on aggregating Quests & minting receipts
 - ERC-20 Quest: A Quest that rewards an on-chain action with an ERC-20 token. You must own an unclaimed receipt to be able to claim the reward.
 - ERC-1155 Quest: A Quest that rewards an on-chain action with an ERC-1155 token. You must own an unclaimed receipt to be able to claim the reward.
