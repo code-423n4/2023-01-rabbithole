@@ -28,8 +28,6 @@ The C4audit output for the contest can be found [here](add link to report) withi
 
 *Note for C4 wardens: Anything included in the C4udit output is considered a publicly known issue and is ineligible for awards.*
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
-
 # Overview
 
 *Please provide some context about the code being audited, and identify any areas of specific concern in reviewing the code. (This is a good place to link to your docs, if you have them.)*
