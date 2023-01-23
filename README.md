@@ -29,7 +29,7 @@ We're releasing five new contracts that are in scope for the audit (more inherit
 - [Ticket](https://github.com/rabbitholegg/quest-protocol/blob/main/contracts/RabbitHoleTickets.sol): An ERC-1155 contract that is used by the RabbitHole team for ERC-1155 Quests. AKA this is an ERC-1155 Reward.
 
 
-See our full suite of documentation [here](https://github.com/rabbitholegg/quest-protocol).
+See our full suite of documentation [here]([https://github.com/rabbitholegg/quest-protocol](https://github.com/rabbitholegg/quest-protocol#quest-protocol).
 
 # Scope
 
