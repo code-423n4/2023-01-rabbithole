@@ -31,8 +31,6 @@ We're releasing five new contracts that are in scope for the audit (more inherit
 
 See our full suite of documentation [here](https://github.com/rabbitholegg/quest-protocol).
 
-*Please provide some context about the code being audited, and identify any areas of specific concern in reviewing the code. (This is a good place to link to your docs, if you have them.)*
-
 # Scope
 
 | Contract Name     | SLOC | Purpose                                                                                                                                                                                                        |
