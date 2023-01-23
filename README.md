@@ -107,3 +107,8 @@ yarn test
 yarn test:coverage
 ```
 
+### Slither
+Slither works from the root directory. We also have a GitHub action you can find on our repo linked through in the docs.
+```
+slither .
+```
