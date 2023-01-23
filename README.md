@@ -52,8 +52,6 @@ We would like to call out extra attention to `QuestFactory.mintReceipt` (users s
 
 - For protocol fee we use basis points (BPS). You can read more on it [here](https://www.investopedia.com/terms/b/basispoint.asp) but the TLDR; is 10_000 is 100%. So 2.5% fee would be 250 BPS.
 
-*Sponsor, please confirm/edit the information below.*
-
 ## Scoping Details 
 ```
 - If you have a public code repo, please share it here: https://github.com/rabbitholegg/quest-protocol
