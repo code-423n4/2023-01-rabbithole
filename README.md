@@ -51,7 +51,7 @@ We would like to call out extra attention to `QuestFactory.mintReceipt` (users s
 # Additional Context
 
 - For protocol fee we use basis points (BPS). You can read more on it [here](https://www.investopedia.com/terms/b/basispoint.asp) but the TLDR; is 10_000 is 100%. So 2.5% fee would be 250 BPS.
-- Our QuestFactory will be an upgradeable proxy allowing us to add more features overtime. For an overview of the upgrade pattern, refer to the (OpenZeppelin documentation)[https://docs.openzeppelin.com/upgrades-plugins/1.x/writing-upgradeable].
+- Our QuestFactory will be an upgradeable proxy allowing us to add more features overtime. For an overview of the upgrade pattern, refer to the [OpenZeppelin documentation](https://docs.openzeppelin.com/upgrades-plugins/1.x/writing-upgradeable).
 
 
 
