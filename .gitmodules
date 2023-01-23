@@ -1,0 +1,3 @@
+[submodule "quest-protocol"]
+	path = quest-protocol
+	url = https://github.com/rabbitholegg/quest-protocol.git
