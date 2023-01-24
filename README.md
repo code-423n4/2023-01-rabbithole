@@ -131,6 +131,12 @@ yarn test
 yarn test:coverage
 ```
 
+### Run gas test:
+
+```bash
+yarn test:gas-stories
+```
+
 ### Slither
 
 Slither works from the root directory. We also have a GitHub action you can find on our repo linked through in the docs.
