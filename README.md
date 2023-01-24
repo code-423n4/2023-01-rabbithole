@@ -96,7 +96,7 @@ We would like to call out extra attention to `QuestFactory.mintReceipt` (users s
 ```
 - If you have a public code repo, please share it here: https://github.com/rabbitholegg/quest-protocol
 - How many contracts are in scope?: 10   
-- Total SLoC for these contracts?:  638
+- Total SLoC for these contracts?:  752
 - How many external imports are there?: 18 
 - How many separate interfaces and struct definitions are there for the contracts within scope?: 11 
 - Does most of your code generally use composition or inheritance?: Yes. Only inheritance is abstraction of Quest Types into a parent Quest  
