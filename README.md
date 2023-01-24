@@ -55,6 +55,10 @@ We're releasing five new contracts that are in scope for the audit (more inherit
 ## Create Quest Flow
 ![image](https://user-images.githubusercontent.com/14314818/214160118-16239aa0-18ca-4963-b812-df4f26153a94.png)
 
+## Claim Flow
+![image](https://user-images.githubusercontent.com/14314818/214354756-0af7e34d-746e-4429-8b55-8eb6d8bb1e31.png)
+
+
 See our full suite of documentation [here](https://github.com/rabbitholegg/quest-protocol#quest-protocol).
 
 # Scope
