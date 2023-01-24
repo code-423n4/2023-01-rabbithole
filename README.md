@@ -58,6 +58,9 @@ We're releasing five new contracts that are in scope for the audit (more inherit
 ## Claim Flow
 ![image](https://user-images.githubusercontent.com/14314818/214354756-0af7e34d-746e-4429-8b55-8eb6d8bb1e31.png)
 
+## ERC-20 Money Flow
+![image](https://user-images.githubusercontent.com/14314818/214363528-84f9d0fd-ea28-4233-a43e-7f67afc0fc5c.png)
+
 
 See our full suite of documentation [here](https://github.com/rabbitholegg/quest-protocol#quest-protocol).
 
