@@ -61,6 +61,7 @@ We're releasing five new contracts that are in scope for the audit (more inherit
 ## ERC-20 Money Flow
 ![image](https://user-images.githubusercontent.com/14314818/214363528-84f9d0fd-ea28-4233-a43e-7f67afc0fc5c.png)
 
+See higher resolution flow diagrams [here](https://www.figma.com/file/6dhjlAxsI6ILs8MhHLqjW5/Untitled?node-id=0%3A1&t=I80YNVsG9mLTUozH-1)
 
 See our full suite of documentation [here](https://github.com/rabbitholegg/quest-protocol/blob/8c4c1f71221570b14a0479c216583342bd652d8d/README.md#quest-protocol).
 
