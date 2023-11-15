@@ -1,0 +1,1359 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q1-2023 / rabbithole-quest-jan25
+==============================================================
+
+[01/20/2023 15:29] itsmetechjay (pinned)
+👋 Hello and welcome to the contest channel for the $36,500 USDC **RabbitHole Quest Protocol** contest!
+
+📆 Contest opens Wednesday, 25 January 2023 20:00 (20:00 UTC) and runs through Monday, 30 January 2023 20:00 (20:00 UTC) (5 days).
+
+Please give a warm welcome to the RabbitHole team, particularly @garretthughes, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2023-01-rabbithole-quest-protocol-contest
+
+
+[01/20/2023 15:29] itsmetechjay
+Pinned a message.
+
+
+[01/21/2023 11:24] sovaslava9
+Hello. why time for audit has increased?  3days -> 5 days?
+
+
+[01/21/2023 11:25] sovaslava9
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - rabbithole-quest-jan25 [1066003689405415425].txt_Files/telegram-cloud-photo-size-2-53571630242989-4E3BE.jpg
+Code4rena - ARCHIVE-Q1-2023 - rabbithole-quest-jan25 [1066003689405415425].txt_Files/image-C2A18.png
+
+
+[01/21/2023 18:08] garrettjmu
+@SovaSlava there were some last-minute changes we were sneaking in which caused the start date to move back, which ultimately made more sense to extend the timeline since we would now be going through a weekend.
+
+{Reactions}
+thankyou (3) 
+
+[01/24/2023 17:09] kartoonjoy (pinned)
+**REMINDER:** Using ChatGPT, GPT-3, or similar tools for contest submissions is prohibited, and will result in all of your contest submissions being ruled invalidated. Additional penalties may also be applied at the discretion of judges and C4 staff.
+
+{Reactions}
+👍 (3) 👀 
+
+[01/24/2023 17:09] kartoonjoy
+Pinned a message.
+
+
+[01/24/2023 20:36] supernovahs
+Me
+
+
+[01/25/2023 14:21] xariextz
+Hey! Is it a public contest?
+
+{Reactions}
+👍 (2) 
+
+[01/25/2023 15:17] cloudellie
+Yes it is. 🙂 Goes live in a few hours.
+
+{Reactions}
+2606_plus_one 
+
+[01/25/2023 19:50] kartoonjoy
+Hi @Franfran - you still good to run the C4udit?
+
+
+[01/25/2023 20:03] garrettjmu
+Hey everyone! Garrett here from the RabbitHole team👋
+
+I'll be around to answer questions during the competition. Best of luck!
+
+{Reactions}
+👋 (14) 🎉 🫡 
+
+[01/25/2023 20:13] codingnamekiki
+:PU_pepeCatHug:
+
+{Reactions}
+salute 
+
+[01/25/2023 20:45] adriro
+hey I can run it if needed, let me know
+
+
+[01/25/2023 20:55] trustminimised
+Is there a larger version of the these images somewhere?
+
+
+[01/25/2023 20:56] trustminimised
+nvm, found them in the repo
+
+
+[01/25/2023 20:56] garrettjmu
+Cool cool. If you need even larger let me know and I can export them in high res 👍
+
+
+[01/25/2023 21:05] itsmetechjay (pinned)
+Wardens, please note that the automated findings output has been posted and added to pinned posts. These are considered publicly known issues and are not eligible for awards.
+
+**Automated findings: **
+https://gist.github.com/GalloDaSballo/39b929e8bd48704b9d35b448aaa29480
+
+{Reactions}
+👍 (3) 
+
+[01/25/2023 21:05] itsmetechjay
+Pinned a message.
+
+
+[01/25/2023 21:07] evan#9648
+@garretthughes Hello! sent FR.
+
+{Reactions}
+👋 
+
+[01/25/2023 21:24] garrettjmu
+Responded to DM!
+
+{Reactions}
+thankyou (2) 
+
+[01/25/2023 21:25] garrettjmu
+Just in the essence of broader answers (in case others have same question too). 
+
+> Who calls the functions in the *renderer.sol contracts, how and where are the images and attributes displayed?
+
+They are called in the tokenUri fx in the receipt contract and the uri fx in the tickets contract. They return base64 encoded strings that decode to json objects that comply to the the OS metadata standards: https://docs.opensea.io/docs/metadata-standards#metadata-structure . The image is a base64 encoded svg.
+
+
+[01/25/2023 21:38] saksham#7993
+@garretthughes sent FR
+
+{Reactions}
+👋 
+
+[01/26/2023 00:28] sovaslava9
+```
+2023-01-rabbithole % yarn
+yarn install v1.22.19
+info No lockfile found.
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+[4/4] 🔨  Building fresh packages...
+
+success Saved lockfile.
+✨  Done in 0.02s.
+viacheslav@MacBook-Pro-Viacheslav-2 2023-01-rabbithole % yarn compile
+yarn run v1.22.19
+error Couldn't find a package.json file in "/Users/viacheslav/project/rnd/rabbitRena/2023-01-rabbithole"
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+```
+
+
+[01/26/2023 00:28] sovaslava9
+How to install?
+
+
+[01/26/2023 00:33] garrettjmu
+cd into quest-protocol @SovaSlava 👍
+
+{Reactions}
+👍 (2) 
+
+[01/26/2023 02:42] akshaysrivastav
+which proxy contracts will be used for upgradeable contracts? @garretthughes
+
+
+[01/26/2023 06:45] bytes032
+sent u fr @garretthughes
+
+
+[01/26/2023 11:14] rvierdiiev
+@garretthughes also sent friend request
+
+{Reactions}
+salute 
+
+[01/26/2023 11:57] sovaslava9
+@garretthughes also sent friend request
+
+{Reactions}
+salute 
+
+[01/26/2023 12:30] 0x5rings
+@garretthughes - Nice to meet, DM'd you 👋 .
+(Your DM seems not to be open)
+
+{Reactions}
+salute 
+
+[01/26/2023 13:18] holladiewaldfee0706
+@garretthughes Sent you a friend request
+
+{Reactions}
+salute 
+
+[01/26/2023 13:19] garrettjmu
+Added all as friends!
+
+
+[01/26/2023 13:22] zaskoh#2073
+@garretthughes sent friend request
+
+{Reactions}
+salute 
+
+[01/26/2023 13:27] garrettjmu
+I've had a few questions regarding RabbitHoleTickets.sol - this is an 1155 contract that is used as a reward for an ERC-1155 Quest.
+
+
+[01/26/2023 13:35] garrettjmu
+I've also had a few questions regarding checking rewardAllowList for 1155. That's really only used for internal use for now. So no need to necessarily restrict it, since it'll only be RabbitHole that runs 1155 Quests (for now)
+
+
+[01/26/2023 15:28] garrettjmu
+Hey Akshay!
+
+Sorry I missed this. If I'm understanding the question right, we are using the OZ transparent proxy: https://docs.openzeppelin.com/contracts/4.x/api/proxy#TransparentUpgradeableProxy
+
+{Embed}
+https://docs.openzeppelin.com/contracts/4.x/api/proxy
+Proxies - OpenZeppelin Docs
+Code4rena - ARCHIVE-Q1-2023 - rabbithole-quest-jan25 [1066003689405415425].txt_Files/social-89974.png
+
+{Reactions}
+👍 
+
+[01/26/2023 15:36] 0xbepresent
+@garretthughes sent you a FR
+
+{Reactions}
+salute 
+
+[01/26/2023 16:29] codingnamekiki
+@garretthughes can we be friends as well.
+
+{Reactions}
+pepemexican 
+
+[01/26/2023 16:29] codingnamekiki
+:wha:
+
+
+[01/26/2023 16:47] bytes032
+Why are rabbit hole receipts upgradeable?
+
+
+[01/26/2023 17:05] garrettjmu
+Mainly for the metadata. Even though we can essentially upgrade the renderer by deploying a new renderer contract, we might want to pass more data into the renderer.
+
+
+[01/26/2023 17:19] 0xzakk
+Are there higher quality versions of the flow charts? Can't actually read the text when I zoom in
+
+
+[01/26/2023 17:23] garrettjmu
+Yep! Checkout Figma file here:
+https://www.figma.com/file/6dhjlAxsI6ILs8MhHLqjW5/Untitled?node-id=0%3A1&t=I80YNVsG9mLTUozH-1
+
+{Embed}
+https://www.figma.com/file/6dhjlAxsI6ILs8MhHLqjW5/Untitled?node-id=0%3A1&t=I80YNVsG9mLTUozH-1
+Untitled
+Created with FigJam
+Code4rena - ARCHIVE-Q1-2023 - rabbithole-quest-jan25 [1066003689405415425].txt_Files/thumbnail-BCD8A
+
+{Reactions}
+hangloose (2) 
+
+[01/26/2023 17:32] key#7318
+One question regarding the scope 👁️ 
+What's the reason that sloc described are different from ones of the real contracts?
+The real contract has 230 sloc even if it describes that Questfactory has 162 sloc.
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - rabbithole-quest-jan25 [1066003689405415425].txt_Files/image-92210.png
+
+
+[01/26/2023 17:32] garrettjmu
+IIRC we excluded comments :salute:
+
+{Reactions}
+✅ 
+
+[01/26/2023 18:49] trustminimised
+@garretthughes sent friend request 🙏
+
+{Reactions}
+salute 
+
+[01/26/2023 19:11] garrettjmu
+I've also had a handful of questions regarding the ClaimSigner. There are checks for start and end off-chain where that happens 👍
+
+It won't issue hashes before the Quest Start or after the Quest End. It also tracks number of receipt redeemers so knows when totalParticipants has been hit.
+
+{Reactions}
+🔥 👍 
+
+[01/26/2023 20:33] 0xpathfindr
+@garretthughes Hey, tried to send you a Dm, seems like your Dm's are closed.
+
+{Reactions}
+salute 
+
+[01/26/2023 20:33] garrettjmu
+Added 👍
+
+
+[01/26/2023 21:45] Cryptor#9119
+@garretthughes sent friend request
+
+{Reactions}
+👋🏼 salute 
+
+[01/27/2023 08:52] 0xdevPed#2322
+Good morning...I sent a friend request
+
+{Reactions}
+salute 
+
+[01/27/2023 11:40] 0xmirce
+@garretthughes Sent friend request
+
+{Reactions}
+salute 
+
+[01/27/2023 15:51] chaduke3730
+How can RabbitHoleTickets.sol used in the project?
+
+
+[01/27/2023 15:57] garrettjmu
+Hey!
+
+RabbitHoleTickets is an example of an ERC-1155 Reward and would be the underlying ERC-1155 contract for RH deploying an ERC-1155 Quest
+
+
+[01/27/2023 16:17] chaduke3730
+Got it
+
+
+[01/27/2023 16:17] chaduke3730
+@garretthughes
+
+
+[01/27/2023 16:17] chaduke3730
+thanks
+
+{Reactions}
+🙏 
+
+[01/27/2023 16:45] garrettjmu
+Hey all. I have another common question I've been getting around the vein of:
+
+> How can a user have more than one claimable receipt?
+
+It's a great question. So they can only mint 1 receipt per quest BUT in theory they could have 2 receipts over time. Here's a concrete example:
+
+Quest A is live to swap on Uniswap with a reward of 1 UNI erc-20 token
+- You and I both do the action
+- We both mint a receipt
+- I hate the UNI token so I sell you my receipt for a small amount of ETH
+- You now have two receipts that are eligible to claim a reward
+- You claim 2 rewards
+
+
+[01/27/2023 16:55] codingnamekiki
+:pepeswag:
+
+{Reactions}
+salute 
+
+[01/28/2023 07:48] punk9975#3483
+just submitted one finding - what can I expect as a follow up?
+
+
+[01/28/2023 07:57] kiki_dev
+Friend request/dm sent. I have a quick question if you don’t mind
+
+{Reactions}
+🫡 
+
+[01/28/2023 08:49] 0xsorrynotsorry
+Sent a friendship request ser @garretthughes
+
+{Reactions}
+🫡 
+
+[01/28/2023 09:14] codingnamekiki
+:pepemexican:
+
+
+[01/28/2023 09:22] xariextz
+Hi one question, this is my first contest and having some doubts when submitting findings
+
+
+[01/28/2023 09:22] xariextz
+For submitting a Hig/Med, do we need to attach a PoC always? Even if it is simple?
+
+
+[01/28/2023 15:10] libratus
+Sent FR @garretthughes
+
+{Reactions}
+🫡 
+
+[01/28/2023 15:51] dewaxindo
+I believe yes
+
+
+[01/28/2023 16:18] chaduke3730
+always yes for h/M
+
+
+[01/28/2023 16:51] punk9975#3483
+is there an example of proof of concept?
+
+
+[01/28/2023 16:59] dewaxindo
+you can check on each contest report here:
+https://code4rena.com/reports
+
+{Embed}
+https://code4rena.com/reports
+Security Audit Reports
+The future of audits is decentralized.
+Code4rena - ARCHIVE-Q1-2023 - rabbithole-quest-jan25 [1066003689405415425].txt_Files/C4-banner-7C19B.png
+
+
+[01/28/2023 17:28] 0x4non
+@garretthughes send FR
+
+{Reactions}
+🫡 
+
+[01/28/2023 17:48] punk9975#3483
+thank you!
+
+
+[01/28/2023 23:05] mahdi9606
+Hi , I want to know that are users allowed to claim their rewards after endtime of the quest ?
+
+
+[01/29/2023 00:44] garrettjmu
+That is correct. They should be able to claim rewards after quest time has ended.
+
+{Reactions}
+👍 
+
+[01/29/2023 00:49] jaraxxus775
+@garretthughes send FR
+
+{Reactions}
+🫡 
+
+[01/29/2023 09:53] ali_shehab.
+@garretthughes send FR I have a question.
+
+{Reactions}
+🫡 
+
+[01/29/2023 10:33] 0xpathfindr
+Yes they should be able to claim (from my observations) users can claim regardless of endtime.
+
+{Reactions}
+➕ 2606_plus_one 
+
+[01/29/2023 10:34] 0xpathfindr
+Endtime is only relevant to adminwithdraw
+
+{Reactions}
+➕ 👍 (2) 
+
+[01/29/2023 13:15] garrettjmu
+It’s also relevant to receiptClaim but that logic is handled off-chain
+
+
+[01/29/2023 13:17] ali_shehab.
+Can I dm you @garretthughes  🙂
+
+{Reactions}
+🫡 
+
+[01/29/2023 14:14] acegawd
+Added you @garretthughes
+
+{Reactions}
+🫡 
+
+[01/29/2023 15:06] chaduke3730
+likes to try some of these quests
+
+
+[01/29/2023 15:47] krayt78
+@garretthughes  added you to ask some questions !
+
+{Reactions}
+salute 
+
+[01/29/2023 17:07] .mangyvagrant
+@garretthughes can I dm you?
+
+{Reactions}
+🫡 
+
+[01/29/2023 17:37] manikantanynala97
+@garretthughes  can I dm you I want to ask few questions please accept my friend request
+
+{Reactions}
+🫡 salute 
+
+[01/29/2023 18:39] manikantanynala97
+Did anyone got any high findings?
+
+
+[01/29/2023 18:39] manikantanynala97
+or thought it was a high?
+
+
+[01/29/2023 18:50] codingnamekiki
+Public discussions regarding findings isn’t recommended, on top of that the contest is still active l doubt anyone will share this kind of information. 😅
+
+
+[01/29/2023 18:50] manikantanynala97
+no man I am telling that did find out any high and I know mostly no one will tell @Kiki
+
+
+[01/29/2023 19:00] 0xpathfindr
+Hey, I sent you a dm.
+
+
+[01/29/2023 19:00] 0xpathfindr
+And a friend request.
+
+
+[01/29/2023 19:04] manikantanynala97
+@0xpathfindr  I havent seen any dm
+
+
+[01/29/2023 19:04] manikantanynala97
+accepted your request
+
+{Reactions}
+👍 
+
+[01/29/2023 19:19] 3dgeville#0311
+@garretthughes sendt a friend request
+
+{Reactions}
+salute 
+
+[01/30/2023 05:52] hake_stake
+@garretthughes sent friend request 🙂
+
+{Reactions}
+🫡 
+
+[01/30/2023 13:09] kmanofficial
+@garretthughes Hi, sent a friend request
+
+{Reactions}
+🫡 
+
+[01/30/2023 13:09] .nalus
+@garretthughes added you
+
+{Reactions}
+🫡 
+
+[01/30/2023 13:17] yosuke.eth
+@Jay | C4 
+I tried to check my findings and got the "Oops! Something went wrong." message, is there an error in the C4 system?🤔
+
+
+[01/30/2023 15:56] saksham#7993
+Same issue , cant edit my report.
+
+
+[01/30/2023 16:20] garrettjmu
+I have pinged the C4 team and they are actively looking into it @yosuke & @sakshamguruji 👍
+
+{Reactions}
+thankyou (3) 👍 (3) 
+
+[01/30/2023 17:19] nullbutc00l
+@garretthughes added you for a quick question
+
+{Reactions}
+🫡 
+
+[01/30/2023 17:44] CharlesPal#0309
+Hey everyone ! I just started in the last minute and I’m wondering if a team member is around !
+
+
+[01/30/2023 17:48] garrettjmu
+Yep. I'm around to answer any questions. Feel free to DM
+
+
+[01/30/2023 17:48] kartoonjoy (pinned)
+For those wardens unable to edit their findings, you can create a new finding submission with the corrected info (for Med / High's) and send a help desk to have us withdraw the invalid / incomplete finding(s).
+
+These must be created prior to the contest end. Thanks!
+
+https://code4rena.com/help
+
+{Embed}
+https://code4rena.com/help
+Help | Code 423n4
+Need help with something? Contact us here.
+Code4rena - ARCHIVE-Q1-2023 - rabbithole-quest-jan25 [1066003689405415425].txt_Files/C4-banner-7C19B.png
+
+
+[01/30/2023 17:50] saksham#7993
+Same for QA?
+
+
+[01/30/2023 17:51] kartoonjoy (pinned)
+For those you can do the help desk request with the changes since you'll likely not be able to create duplicate QA and Gas reports.
+
+
+[01/30/2023 17:52] saksham#7993
+Akright I'll create a help desk request , thanks!
+
+
+[01/30/2023 17:53] kartoonjoy
+this needs to be done prior to contest end.
+
+
+[01/30/2023 17:54] saksham#7993
+Yes, done already🏎️
+
+
+[01/30/2023 18:01] cloudellie
+Pinned a message.
+
+
+[01/30/2023 18:07] manikantanynala97
+Can the finding be edited after the contest
+
+
+[01/30/2023 18:07] manikantanynala97
+Can someone please tell
+
+
+[01/30/2023 18:08] kartoonjoy
+no. We're offering that you can create a help desk request.
+
+https://discord.com/channels/810916927919620096/1066003689405415425/1069675541772369960
+
+https://discord.com/channels/810916927919620096/1066003689405415425/1069676335083036752
+
+
+[01/30/2023 18:09] manikantanynala97
+ok thank you
+
+{Reactions}
+hi5 
+
+[01/30/2023 18:12] kartoonjoy
+Pinned a message.
+
+
+[01/30/2023 18:16] kartoonjoy
+@0xAgrocan you accept my friend request, please?
+
+
+[01/30/2023 18:52] manikantanynala97
+I am not able to submit a QA report
+
+
+[01/30/2023 18:53] manikantanynala97
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2023 - rabbithole-quest-jan25 [1066003689405415425].txt_Files/error-C166D.jpg
+
+
+[01/30/2023 18:54] codingnamekiki
+try to reload the page couple of times, l just submitted a QA and everything was fine.
+
+
+[01/30/2023 18:55] manikantanynala97
+No I am getting the same thing
+
+
+[01/30/2023 18:55] codingnamekiki
+it says that you already submitted a QA
+
+
+[01/30/2023 18:55] manikantanynala97
+How many QA can I submit
+
+
+[01/30/2023 18:56] manikantanynala97
+?
+
+
+[01/30/2023 18:56] codingnamekiki
+you know that for the QA, you should group the findings in one submit
+
+{Reactions}
+thankyou 
+
+[01/30/2023 18:56] manikantanynala97
+oh I dont know this is my first contest
+
+
+[01/30/2023 18:56] manikantanynala97
+Thank you @Kiki
+
+
+[01/30/2023 18:57] codingnamekiki
+no worries l remember l did the same mistake on my first contest, l actually submitted 26 gas reports separately.
+
+
+[01/30/2023 18:57] manikantanynala97
+Is it the same for gas also
+
+
+[01/30/2023 18:57] codingnamekiki
+yes
+
+
+[01/30/2023 18:57] manikantanynala97
+oh I see
+
+
+[01/30/2023 19:14] kartoonjoy
+Last call for submission edits via help desk requests as we're in the final hour for the RabbitHole contest!!
+
+https://discord.com/channels/810916927919620096/1066003689405415425/1069675541772369960
+
+{Reactions}
+salute 
+
+[01/30/2023 19:53] manikantanynala97
+Amazing contest and it is my first one and hope so everyone has enjoyed giving the contest
+
+
+[01/30/2023 19:53] CharlesPal#0309
+Nice! How many h/m did you submit ?:)
+
+
+[01/30/2023 19:54] manikantanynala97
+Can I answer it now @Kiki  🤣
+
+
+[01/30/2023 19:55] manikantanynala97
+1 Gas + 2 QA + 1 Medium + 3 Highs and let me see how many are valid but ya I feel all are valid
+
+
+[01/30/2023 19:56] manikantanynala97
+I have 1 QA more but no time so I left
+
+
+[01/30/2023 20:02] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **RabbitHole Quest Protocol** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+{Reactions}
+🫡 (16) 
+
+[01/30/2023 20:05] garrettjmu
+Thanks to all that participated. I hope this was a fun one to review. We're looking forward to going through submissions! :salute:
+
+{Reactions}
+🫡 (14) 
+
+[01/30/2023 20:05] codingnamekiki
+:pepemexican:
+
+
+[01/30/2023 20:16] chaduke3730
+good luck to all, it has been a fun project.
+
+
+[01/30/2023 20:19] pfapostol
+in/valids is not the only issue. I think one particular high will cost very little due to the large number of duplicates. 
+But it's better not to discuss vulnerabilities until the report is published.
+
+
+[01/30/2023 20:26] manikantanynala97
+but should I know tell it even after the contest
+
+
+[01/30/2023 20:27] manikantanynala97
+ok sure I will not tell once again
+
+
+[01/30/2023 20:27] manikantanynala97
+@pfapostol
+
+
+[01/31/2023 03:27] akshaysrivastav
+Indeed it was a fun one. Thanks for being supportive and answering the queries @garretthughes 🫡
+
+{Reactions}
+🙏 👆 
+
+[01/31/2023 04:37] punk9975#3483
+usually how soon are the results out?
+
+
+[01/31/2023 05:59] dewaxindo
+2 months
+
+
+[01/31/2023 06:41] punk9975#3483
+: / that's really slow
+
+
+[01/31/2023 06:42] punk9975#3483
+I want to know how well I've been doing to improve myself
+
+
+[01/31/2023 08:14] pfapostol
+You can improve yourself by reading other people's reports. But in fact, the best way is to practice and understand each specific project.
+
+{Reactions}
+➕ (2) 
+
+[01/31/2023 17:52] xariextz
+This was my first contests, can't wait to see the report!
+
+
+[01/31/2023 18:02] krayt78
+A first for me too it was super cool
+
+{Reactions}
+😁 
+
+[01/31/2023 18:10] favelanky
+me too 😄
+
+
+[01/31/2023 21:00] ahmet5611
+Focus on journey, not results, never stop improving yourself, even if you think that you know everything 😄
+
+{Reactions}
+hi5 (2) 💯 (2) 
+
+[02/01/2023 11:26] xariextz
+Great advice!
+
+
+[02/07/2023 15:07] cloudellie
+@HollaDieWaldfee just sent you a friend request
+
+{Reactions}
+👍 
+
+[02/11/2023 04:15] jauvany
+🙏
+
+
+[02/15/2023 09:28] manikantanynala97
+any update ?
+
+{Reactions}
+👀 (9) 
+
+[02/15/2023 23:13] kirk_baird
+Still in the judging phase, at least another week as there were a lot of issues on this one
+
+
+[02/20/2023 13:00] manikantanynala97
+when can we except the results @kirk-baird
+
+
+[02/20/2023 13:00] manikantanynala97
+in 2 weeks
+
+
+[02/21/2023 03:26] kirk_baird
+Can't give you an accurate estimate but probably in the next two weeks
+
+
+[02/24/2023 04:56] ahmet5611
+https://github.com/code-423n4/code423n4.com/commit/f11e6c82e496eb2093769e06ec3b062f30f5b6d9
+
+{Embed}
+https://github.com/code-423n4/code423n4.com/commit/f11e6c82e496eb2093769e06ec3b062f30f5b6d9
+Add 208 · code-423n4/code423n4.com@f11e6c8
+Code4rena - ARCHIVE-Q1-2023 - rabbithole-quest-jan25 [1066003689405415425].txt_Files/f11e6c82e496eb2093769e06ec3b062f30f5b6d9-023AC
+
+{Reactions}
+👍 (11) 🔥 (5) 😑 (4) 
+
+[02/24/2023 11:05] ladboy233
+:chefskiss:
+
+
+[02/24/2023 11:33] brevist
+Congrats!
+
+{Reactions}
+❤️ 
+
+[02/24/2023 11:37] un_for_given
+(draft)
+8821.89 >> V_B
+1767.69 >> adriro
+1692.67 >> glcanvas
+1360.43 >> hansfriese
+1295.79 >> libratus
+1241 >> 0x4non
+1173.86 >> simon135
+1034.68 >> zaskoh
+915.88 >> ArmedGoose
+905.78 >> ForkEth
+508.78 >> CodingNameKiki
+476.4 >> ladboy233
+472.58 >> rbserver
+457.23 >> ElKu
+364.2 >> Tricko
+330.94 >> StErMi
+324.64 >> 0xmrhoodie
+283.81 >> IllIllI
+271.96 >> HollaDieWaldfee
+250.4 >> horsefacts
+
+{Reactions}
+🔥 (13) 👀 
+
+[02/24/2023 12:34] cryptostaker
+wow the high findings payout pool is really low this time 🫠
+
+{Reactions}
+🫠 (2) 
+
+[02/24/2023 13:07] carrotsmuggler
+0.75 usd for a high XD
+
+{Reactions}
+🫠 (11) 
+
+[02/24/2023 13:34] bytes032
+seems like somebody found a nasty unique bug
+
+
+[02/24/2023 13:34] bytes032
+wondering what is it
+
+
+[02/24/2023 17:28] paspe
+USDC 2.59 for a high vulnerability bug for the modifier found by 50 people 😮
+
+{Reactions}
+😩 (3) 
+
+[02/24/2023 17:36] codingnamekiki
+At least it’s not 0.75 for high
+
+{Reactions}
+🥲 (3) 
+
+[02/24/2023 17:36] codingnamekiki
+:sad_cat:
+
+{Reactions}
+😂 (2) 
+
+[02/24/2023 17:56] ladboy233
+🥲
+
+
+[02/24/2023 17:58] saksham#7993
+🥺
+
+
+[02/24/2023 18:17] mert_eren#2527
+why 208 looks removed from github findings?
+
+
+[02/24/2023 18:27] pfapostol
+50 is less than i expected
+
+{Reactions}
+👍 (3) 
+
+[02/24/2023 22:04] ahmet5611
+https://github.com/code-423n4/code423n4.com/pull/7771/commits/5ac5c9275a4bd5b7eee960781f14b73ccb09c798
+
+{Embed}
+https://github.com/code-423n4/code423n4.com/pull/7771/commits/5ac5c9275a4bd5b7eee960781f14b73ccb09c798
+Update Leaderboard Feb24 by liveactionllama · Pull Request #7771 · ...
+Code4rena - ARCHIVE-Q1-2023 - rabbithole-quest-jan25 [1066003689405415425].txt_Files/98446738-1A1F9
+
+{Reactions}
+👍 (2) 
+
+[02/25/2023 01:57] liveactionllamac4
+:C4Keycap:  💸 🎉 Awards for **RabbitHole Quest Protocol**:
+
+$8,821.89 USDC » V_B (@Barichek & @Vlad B | zkSync)
+$1,767.67 USDC » @adriro 
+$1,692.66 USDC » @glcanvas 
+$1,360.42 USDC » @hansfriese 
+$1,295.78 USDC » @libratus  
+$1,240.99 USDC » @anon 
+$1,173.85 USDC » @simon135  
+$1,034.68 USDC » @zaskoh 
+$915.88 USDC » @ArmedGoose 
+$905.78 USDC » ForkEth (@Nullbutc00l & @filipaze)
+$508.77 USDC » @Kiki 
+$476.40 USDC » @0xladboy | Sparkware 
+$472.57 USDC » @rbserver 
+$457.22 USDC » @ElKu 
+$364.19 USDC » @Tricko 
+$330.93 USDC » @StErMi 
+$324.64 USDC » @0xmrhoodie 
+$283.81 USDC » @IllIllI 
+$271.95 USDC » @HollaDieWaldfee 
+$250.40 USDC » @horsefacts 
+$230.96 USDC » @Rolezn 
+$230.96 USDC » @0xSmartContract 
+$199.39 USDC » @carrotsmuggler 
+$188.24 USDC » @bin2chen 
+$174.83 USDC » @AkshaySrivastav 
+$169.55 USDC » @peanuts 
+$159.59 USDC » @evan 
+$152.22 USDC » @Iurii3 
+$149.44 USDC » @omis 
+$145.31 USDC » @mert_eren 
+$141.64 USDC » @trustminimised 
+$140.90 USDC » @KmanOfficial 
+$140.90 USDC » @hl_ 
+$138.73 USDC » @chaduke 
+$130.93 USDC » @cryptostellar5 
+$130.93 USDC » @nadin 
+$128.55 USDC » @0x1f8b 
+$128.55 USDC » @matrix_0wl 
+$122.19 USDC » @btk 
+$119.60 USDC » @0xackerman 
+$119.15 USDC » @MiniGlome (Mlome) 
+$113.94 USDC » @c3phas 
+$111.35 USDC » @Noam Yakov 
+$69.58 USDC » @lukris02 
+$54.59 USDC » @CharlesPal 
+$52.83 USDC » @carlitox477 
+$50.13 USDC » @Breeje 
+$50.13 USDC » @joestakey 
+$49.81 USDC » @thekmj 
+$48.90 USDC » @0xRobocop 
+$48.10 USDC » @peakbolt 
+$48.10 USDC » @cccz 
+$48.10 USDC » @rvierdiiev 
+$47.22 USDC » @gkrastenov 
+$45.85 USDC » @csanuragjain 
+$44.44 USDC » @minhquanym 
+$43.69 USDC » @hihen 
+$42.14 USDC » @prestoncodes 
+$41.39 USDC » @Kenshin 
+$40.41 USDC » @gzeon 
+$40.30 USDC » @0xbepresent 
+$40.30 USDC » @m9800 
+$40.27 USDC » @RaymondFam 
+$39.55 USDC » @Ruhum 
+$39.55 USDC » @sashik_eth 
+$38.48 USDC » @luxartvinsec 
+$38.15 USDC » @code-cipher 
+$37.40 USDC » @Tointer 
+$36.64 USDC » @manikantanynala97 
+$35.89 USDC » @critical-or-high 
+$29.27 USDC » @cryptonue 
+$28.52 USDC » @arialblack14 
+$28.52 USDC » @Diana 
+$28.52 USDC » @0xcatellatech 
+$28.52 USDC » @0xAgro 
+$28.52 USDC » @ddimitrov22 
+$26.83 USDC » @0xMirce  
+$26.83 USDC » @Josiah 
+$26.49 USDC » KIntern_NA (@minhquanym & @TrungOre)
+$26.49 USDC » @wait 
+$24.24 USDC » BClabs (@nalus & @Reptilia)
+$22.36 USDC » M4TZ1P (@DekaiHako, @0xDanielH, @Zer0Luck, @AAIIWITF, & @PENGUN)
+$21.66 USDC » @SovaSlava 
+$21.28 USDC » @mookim 
+$21.28 USDC » UdarTeam (@AhmeT & @tourist)
+$19.78 USDC » @xAriextz 
+$19.78 USDC » @oberon 
+$19.78 USDC » @sakshamguruji 
+$19.78 USDC » @tsvetanovv  
+$19.78 USDC » @fellows  
+$19.45 USDC » @Atarpara 
+$18.70 USDC » @romand  
+$18.70 USDC » p4st13r4 ( @0x69e8 & @0xb4bb4)
+$18.70 USDC » @__141345__
+
+
+[02/25/2023 01:58] liveactionllamac4
+$18.70 USDC » @jesusrod15 
+$18.70 USDC » @cryptojedi88  
+$17.95 USDC » @martin | Founder @ ShieldifySec 
+$17.95 USDC » @zadaru13 
+$17.95 USDC » @tnevler 
+$17.20 USDC » @seeu 
+$17.20 USDC » @chrisdior4 
+$17.20 USDC » @Brevis 
+$17.20 USDC » @DadeKuma 
+$17.20 USDC » @0xSurena 
+$17.20 USDC » @Inspectah  
+$17.20 USDC » @iceBear  
+$17.20 USDC » @PaludoX0  
+$17.20 USDC » @Phenomana 
+$17.20 USDC » @madwookie 
+$17.20 USDC » @MogiBlack  
+$17.20 USDC » @Krayt 
+$17.20 USDC » @Dewaxindo 
+$17.20 USDC » @0x5rings 
+$17.20 USDC » @haku  
+$17.20 USDC » @nicobevi.eth
+$17.20 USDC » @masa  
+$17.20 USDC » @kenta  
+$17.20 USDC » @PrasadLak  
+$17.20 USDC » @Jat 
+$17.20 USDC » @sayan  
+$17.20 USDC » SleepingBugs (@Deivitto & @0xLovesleep)
+$13.91 USDC » @navinavu 
+$13.91 USDC » @shark  
+$13.91 USDC » @Deivitto 
+$12.08 USDC » @0xngndev 
+$12.08 USDC » @doublesharp  
+$11.33 USDC » @0xhacksmithh 
+$11.33 USDC » @georgits  
+$11.33 USDC » @Bnke 
+$11.33 USDC » @ReyAdmirado 
+$11.33 USDC » @dharma09  
+$11.33 USDC » @jasonxiale  
+$11.33 USDC » @LethL  
+$11.33 USDC » @ali  
+$11.33 USDC » @saneryee 
+$11.33 USDC » @favelanky 
+$11.33 USDC » @karanctf  
+$11.33 USDC » @Dug 
+$11.33 USDC » @SAAJ  
+$11.33 USDC » @atharvasama  
+$10.80 USDC » @badman  
+$10.38 USDC » @usmannk  
+$9.63 USDC » @AlexCzm  
+$7.80 USDC » @holme 
+$7.80 USDC » @timongty  
+$7.05 USDC » @ubermensch  
+$3.34 USDC » @codeislight 
+$3.34 USDC » @Garrett  
+$2.59 USDC » @frankudoags  
+$2.59 USDC » @Cryptor 
+$2.59 USDC » @millers.planet  
+$2.59 USDC » @0xMAKEOUTHILL  
+$2.59 USDC » @Timenov  
+$2.59 USDC » @vanko1 
+$2.59 USDC » @DimitarDimitrov  
+$2.59 USDC » @amaechi eth  
+$2.59 USDC » @paspe 
+$2.59 USDC » @ICP  
+$2.59 USDC » @jayus  
+$2.59 USDC » @7siech  
+$2.59 USDC » @Awesome  
+$2.59 USDC » @pfapostol 
+$2.59 USDC » @yosuke  
+$2.59 USDC » @vagrant  
+$2.59 USDC » @petersspetrov  
+$2.59 USDC » @KrisApostolov  
+$0.75 USDC » @mahdikarimi 
+$0.75 USDC » @0xpathfindr  
+$0.75 USDC » @bauer6009 
+$0.75 USDC » @Lotus  
+$0.75 USDC » @yixxas  
+$0.75 USDC » @bytes032 
+$0.75 USDC » @fs0c 
+
+🏁 Findings summary
+---------------------------
+High risk findings: 110 total, 2 unique
+Med risk findings: 143 total, 9 unique
+Gas reports: 50 total
+QA reports: 89 total
+
+Awards will be distributed on Polygon within the next week. Congratulations, everyone! 💸 💸 💸
+
+If you participated in this contest and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.
+
+
+[02/25/2023 01:59] chaduke3730
+congrats to all!
+
+{Reactions}
+👍 (5) 
+
+[02/25/2023 01:59] dadekuma
+Congrats everyone!
+
+
+[02/25/2023 02:00] dadekuma
+0.75 USDC for an high, yikes
+
+
+[02/25/2023 02:05] pavankv
+Bcz that issue submited by 35+ participants
+
+
+[02/25/2023 02:09] kmanofficial
+Not bad I'm progressing I guess, second contest => 3 digit payout 📈
+
+{Reactions}
+hi5 
+
+[02/25/2023 02:09] kmanofficial
+Congrats to all
+
+
+[02/25/2023 06:26] favelanky
+My first payout! I'm so happy 🙂
+
+{Reactions}
+hi5 (14) 🔥 (8) 
+
+[02/25/2023 06:27] favelanky
+Congrats everyone!
+
+
+[02/25/2023 13:26] garrettjmu
+Thanks all for participating 🤝
+
+{Reactions}
+hi5 (4) 👍 (2) 
+
+[02/25/2023 14:57] jat4100
+Same for me. Do we have to wait for the audit report release to learn about the findings?
+
+{Reactions}
+🔥 (4) 
+
+[02/25/2023 15:35] 0xsorrynotsorry
+Definitely. It would take a while till the mitigations are implemented.
+
+{Reactions}
+🆗 
+
+[02/25/2023 16:05] libratus
+I wonder why is that a requirement if the contracts aren't live?
+
+
+[02/25/2023 16:12] 0xsorrynotsorry
+It all depends on the sponsors actually.
+
+
+[02/26/2023 04:03] Preston#3005
+ayo 42 bucks! 6 bubble teas
+
+
+[02/26/2023 14:13] jpr15
+rewars not send yet?
+
+
+[02/26/2023 14:47] chaduke3730
+@prestoncodesI like bubble teas too.
+
+
+[02/26/2023 23:07] kirk_baird
+You can join backstage if you'd like to see the findings before they are published in the report. I'd recommend this as you'll get better feedback on your issues and more quickly.
+
+
+[02/26/2023 23:08] kirk_baird
+Not yet, usually about ~1 week between announcement and payment
+
+
+[02/27/2023 06:43] 0x3b
+how do you join backstage?
+
+
+[02/27/2023 06:46] kirk_baird
+There's some docs here about it.
+https://docs.code4rena.com/roles/certified-contributors/backstage-wardens
+
+{Embed}
+https://docs.code4rena.com/roles/certified-contributors/backstage-wardens
++Backstage wardens
+
+{Reactions}
+👍 (2) 
+
+[02/27/2023 06:48] 0x3b
+thanks!
+
+
+[02/27/2023 14:43] jpr15
+ok thanks
+
+
+[02/27/2023 19:36] xariextz
+hey!
+
+
+[02/27/2023 19:36] xariextz
+One question, how can we check our submissions review?
+
+
+[02/27/2023 19:36] xariextz
+Was my first contest!
+
+{Reactions}
+👀 
+
+[02/28/2023 22:40] kirk_baird
+@xAriextz  You need to wait for the report to come out (probably another week or two) or you can get backstage access but that requires you to have done a few contests https://docs.code4rena.com/roles/certified-contributors/backstage-wardens
+
+{Embed}
+https://docs.code4rena.com/roles/certified-contributors/backstage-wardens
++Backstage wardens
+
+
+[03/01/2023 18:55] mert_eren#2527
+is rewards sent?
+
+
+[03/02/2023 22:10] kirk_baird
+No you'll see a message in #📢announcements when they've been sent
+
+
+[03/04/2023 08:38] brevist
+Done!
+
+{Reactions}
+thankyou 
+
+[04/11/2023 05:06] Preston#3005
+Could someone link me to the report?
+
+
+[04/11/2023 16:19] chrisapostolov
+It is not out yet
+
+
+[04/12/2023 10:24] paspe
+Now it is public
+
+
+[04/12/2023 10:24] paspe
+https://github.com/code-423n4/2023-01-rabbithole-findings
+
+{Embed}
+https://github.com/code-423n4/2023-01-rabbithole-findings
+GitHub - code-423n4/2023-01-rabbithole-findings
+Contribute to code-423n4/2023-01-rabbithole-findings development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q1-2023 - rabbithole-quest-jan25 [1066003689405415425].txt_Files/f4034a22-e9e0-43ad-b9d6-e720621a7a5a-8C039
+
+{Reactions}
+👍 (2) 
+
+==============================================================
+Exported 214 message(s)
+==============================================================
